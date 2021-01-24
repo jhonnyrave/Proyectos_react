@@ -1,6 +1,6 @@
 {
-  "name": "discord-page",
-  "version": "0.1.0",
+  "name": "dd",
+  "version": "01",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -34,5 +34,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "pagina clon de discord",
+  "main": "index.js",
+  "author": "Jhonny Rave",
+  "license": "MIT"
 }
