@@ -1,12 +1,12 @@
 import React from "react";
 
 export default function Boton({
-  width = "150px",
-  heigth = "60px",
+  width = "12.4rem",
+  heigth = "3.5rem",
   clase = "boton_inical",
   onClick,
   href = "",
-  text = "Ingresar",
+  text = "Iniciar sesión",
 }) {
   return (
     <a href={href} width={width} heigth={heigth} class={clase}>

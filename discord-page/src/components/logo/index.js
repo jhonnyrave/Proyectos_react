@@ -1,7 +1,7 @@
 import React from "react";
-import imglogo from "../../img/images.jpeg";
+import imglogo from "../../img/images.png";
 
-export default function Logo({ width = "150px", heigth = "60px", onClick }) {
+export default function Logo({ width = "160px", heigth = "60px", onClick }) {
   return (
     <a href="#">
       <img

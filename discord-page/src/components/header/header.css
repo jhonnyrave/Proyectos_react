@@ -1,7 +1,7 @@
 .header {
   padding: 4rem 0 0;
   position: relative;
-  background-color: teal;
+  background-color: #5a64ed;
   z-index: 3;
 }
 
@@ -12,7 +12,8 @@
 }
 
 .header__logo {
-  flex-basis: 75%;
+  right: 10rem;
+  position: relative;
 }
 
 .nav {
@@ -26,5 +27,4 @@
 .container {
   margin: 0 auto;
   max-width: 960px;
-  background-color: tomato;
 }
