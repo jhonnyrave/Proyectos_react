@@ -1,16 +1,17 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Boton({
   width = "12.4rem",
   heigth = "3.5rem",
   clase = "boton_inical",
   onClick,
-  href = "",
+  link = "/login",
   text = "Iniciar sesión",
 }) {
   return (
-    <a href={href} width={width} heigth={heigth} class={clase}>
+    <Link to={link} width={width} heigth={heigth} class={clase}>
       {text}
-    </a>
+    </Link>
   );
 }
