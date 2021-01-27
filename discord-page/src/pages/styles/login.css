@@ -1,0 +1,103 @@
+.container-login {
+  background-image: url(../../img/fondo_login.png);
+  height: 83vh;
+  padding-top: 10rem;
+}
+
+.formulario {
+  width: 720px;
+  height: 344px;
+  border: 1px solid rgb(54, 57, 63);
+  background-color: rgb(54, 57, 63);
+  margin: 0 auto;
+  padding: 32px;
+  color: white;
+  display: flex;
+  font-family: Helvetica, sans-serif;
+}
+
+.form-left,
+.form-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.form-left {
+  float: left;
+  width: 60%;
+}
+
+.form-right {
+  float: right;
+  width: 40%;
+}
+
+h2 {
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(185, 187, 190);
+  margin-bottom: 8px;
+}
+
+label {
+  font-size: 1rem;
+  color: rgb(185, 187, 190);
+  float: left;
+}
+
+input {
+  width: 412px;
+  height: 40px;
+  background-color: #313339;
+  border: 1px solid black;
+}
+
+.forgot {
+  font-size: 14px;
+  color: rgb(114, 137, 218);
+  font-weight: bold;
+  float: left;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #7289da;
+  font-size: 16px;
+  width: 410px;
+  height: 40px;
+}
+
+.img-QR {
+  background-image: url(../../img/qr.png);
+  width: 176px;
+  height: 176px;
+  background-repeat: round;
+  margin-bottom: 12px;
+}
+
+.titulo-QR {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.mensaje-QR {
+  color: rgb(185, 187, 190);
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+  width: 240px;
+  line-height: 24px;
+}

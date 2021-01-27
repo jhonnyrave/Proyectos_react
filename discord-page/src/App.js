@@ -1,12 +1,11 @@
-import "./App.css";
 import Header from "./components/header";
 import Main from "./components/main";
 import Login from "./pages/Login";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 export default function App() {
   const list = [
-    { title: "Descargar", link: "discor.com", key: 1 },
+    { title: "Descargar", link: "discord.com", key: 1 },
     {
       title: "¿Por qué Discord?",
       link: "https://discord.com/why-discord-is-different",
@@ -29,11 +28,8 @@ export default function App() {
           {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
           <Switch>
-            <Route path="/about">
-              <About />
-            </Route>
-            <Route path="/users">
-              <Users />
+            <Route path="/login">
+              <LoginInicial />
             </Route>
             <Route path="/">
               <Home />
@@ -49,14 +45,6 @@ function Home() {
   return <Main></Main>;
 }
 
-function About() {
-  return (
-    <h2>
-      <Login></Login>
-    </h2>
-  );
-}
-
-function Users() {
-  return <h2>Users</h2>;
+function LoginInicial() {
+  return <Login></Login>;
 }
